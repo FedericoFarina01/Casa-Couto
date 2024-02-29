@@ -1,4 +1,4 @@
-/*Header*/
+/* Nav */
 .nav-color {
     background-color: rgb(0, 106, 162);
 }
@@ -8,12 +8,12 @@
 }
 
 /*Logo*/
+
 .logoPrincipal {
     width: 150px;
     height: 60px;
     margin-left: 50%;
 }
-
 
 /* body */
 .titulo {
