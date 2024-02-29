@@ -1,19 +1,27 @@
-/*Header*/
+/* Nav */
 .nav-color {
     background-color: rgb(0, 106, 162);
+    margin: -8px;
+    padding: 10px;
 }
 
 .nav-item-color {
     color: white !important;
 }
 
+.nav-item-color:hover {
+    color: black !important;
+    font-weight:450;
+    transition: 0.5s;
+}
+
 /*Logo*/
+
 .logoPrincipal {
     width: 150px;
     height: 60px;
     margin-left: 50%;
 }
-
 
 /* body */
 .titulo {
@@ -22,15 +30,6 @@
     color: rgb(0, 106, 162);
 }
 
-
-/*Button*/
-button {
-    background-color: white;
-    border-color: rgb(0, 106, 162);
-    text-align: center;
-    font-size: 15px;
-    padding: 0.5rem;
-}
 
 /* Carousel INICIO */
 .carousel-foto {
@@ -46,7 +45,7 @@ button {
 }
 
 .estilo-carta {
-    background-color: #1A1A1A;
+    background-color: rgb(0, 106, 162);
 }
 
 .tamaño-foto-art {
@@ -55,8 +54,24 @@ button {
 } 
 
 .boton-articulos {
+    color: white !important;
+    font-weight: 500 !important;
+    margin-left: 122px ;
+}
+
+.boton-articulos:hover {
     color: black !important;
-    margin-left: 60px ;
+    transition: 0.5s !important;
+}
+
+.estilo-boton {
+    background-color: transparent !important;
+    border: 2px solid white !important;
+}
+
+.estilo-boton:hover {
+    background-color: white !important;
+    transition: 0.5s;
 }
 
 h5 {
@@ -75,17 +90,33 @@ footer {
     background-color: rgb(0, 106, 162);
 }
 
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-footer {
+    color: white;
+    text-decoration:underline;
+    font-size: 1.3rem;
+    margin-left: 30px;
+}
+
 ul {
     list-style-type: none;
 }
 
 ul a {
+    font-weight:500;
     color: black;
     text-decoration: none;
+    transition: 0.4s;
 }
 
 ul a:hover {
-    text-decoration: underline;
+    color: white;
+    font-weight: 500;
+    transition: 0.4s;
 }
 
 .logoRedSocial {
@@ -98,12 +129,27 @@ ul a:hover {
     height: 40px;
 }
 
+/* Medios de Pago */
+.medios-de-pago {
+    margin-left: 100px;
+}
+
 .medioDePago {
     width: 50px;
     height: 30px;
 }
 
-.contacto {
+/* Contacto */
+.contacto-png {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-text {
+    margin-left: 30px;
+}
+
+.horario-png {
     width: 20px;
     height: 20px;
 }
@@ -131,6 +177,13 @@ ul a:hover {
     background: #FCFCFD;
     transition: 0.3s;
 }
+
+.copyright {
+    position: absolute;
+    margin-right: 100%;
+    margin-top: 400px;
+}
+
 
 
 /* Grid CONTACTO */
