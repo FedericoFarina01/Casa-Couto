@@ -8,7 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
 <body>
-  <header class="header"> 
+  <header class="header" id="header"> 
 
     <!-- NAV-->
       <nav class="navbar navbar-expand-lg bg-body-tertiary nav-color">
@@ -42,48 +42,45 @@
     <main class="main-container">
         <h1 class="titulo">CONTACTO</h1>
 
-        <section class="contactos-container">
-            <div class="contactos">
-                <h2 class="contactos-item">Teléfono</h2>
-                <p class="contactos-valor">011 4205-6585</p>
+        <section class="grid-container">
+            <div class="grid-item grid-item-1">
+                <h2 class="grid-title">Teléfono</h2>
+                <a href="tel:011 4205-6585" class="grid-p grid-enlace">011 4205-6585</a>
             </div>
             
-            <div class="contactos">
-                <h2 class="contactos-item">E-mail</h2>
-                <p class="contactos-valor">casacoutoelectricidad@yahoo.com</p>
+            <div class="grid-item grid-item-2">
+                <h2 class="grid-title">E-mail</h2>
+                <a href="mail:casacoutoelectricidad@yahoo.com" class="grid-p grid-enlace">casacoutoelectricidad@yahoo.com</a>
             </div>
             
-            <div class="contactos">
-                <h2 class="contactos-item">Direccion</h2>
-                <p class="contactos-valor">Cno. Gral. Manuel Belgrano 801, B1823 Gerli, Provincia de Buenos Aires</p>
+            <div class="grid-item grid-item-3">
+                <h2 class="grid-title">WhatsApp</h2>
+                <a href="tel:+5411-5643-0357" class="grid-p grid-enlace">5643-0357</a>
             </div>
+
+            <div class="grid-item grid-item-4">
+              <h2 class="grid-title">Horarios</h2>
+              <p class="grid-p">
+                Lun-Vie: 9:00 a 13hs / 15 a 18:30hs <br>
+                Sábados: 9:00 a 13:00 
+            </p>
+          </div>
             
         </section>
         
-        <div class="contactos">
-            <h2 class="contactos-item">Horarios</h2>
-            <p class="footer-text">
-              <b>Lunes a Viernes:</b> 9:00 a 13:00 - 15hs a 18:30hs <br>
-              <b>Sábado</b>: 9:00 a 13:00 <br>
-              <b>Domingo</b> Cerrado
-          </p>
-        </div>
+        <section class="form-container">
+          <h3>Queres preguntarnos algo?</h3>
+          <form action="">
+              <textarea name="" id="textarea" cols="30" rows="10">Hace tu pregunta acá</textarea>
+              <button type="submit">Enviar</button>
+          </form>
+      </section>
+  </main>
         
         <section class="iframe">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.5982016002217!2d-58.379053624471915!3d-34.69008896206433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcccd3f1e6fa49%3A0x8d07473707e40fac!2sCasa%20Couto!5e0!3m2!1ses-419!2sar!4v1706488370817!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         
-
-        <section>
-            <h3>Queres preguntarnos algo?</h3>
-            <form action="">
-                <textarea name="" id="textarea" cols="30" rows="10">Hace tu pregunta acá</textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-       
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.5982016002217!2d-58.379053624471915!3d-34.69008896206433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcccd3f1e6fa49%3A0x8d07473707e40fac!2sCasa%20Couto!5e0!3m2!1ses-419!2sar!4v1706488370817!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </main>
 
     <!-- Footer -->
     <footer class="footer">
