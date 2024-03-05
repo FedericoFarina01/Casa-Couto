@@ -223,6 +223,66 @@ iframe {
 }
 
 
+/*-----------------MARCAS-------------------*/
+.marcas-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 10px;
+    row-gap: 10px ;
+    border: 1px solid red;
+}
+
+.marcas-img-1{
+    background-color: aqua;
+}
+
+.marcas-img-2{
+    background-color: blue;
+}
+.marcas-img-3{
+    background-color: cadetblue;
+}
+.marcas-img-4{
+    background-color: darkmagenta;
+}
+.marcas-img-5{
+    background-color: gold;
+}
+.marcas-img-6{
+    background-color: hotpink;
+}
+.marcas-img-7{
+    background-color: indianred;
+}
+.marcas-img-8{
+    background-color: khaki;
+}
+
+.marcas-img-9{
+    background-color: lawngreen;
+}
+.marcas-img-10{
+    background-color: maroon;
+}
+
+.marcas-img-11{
+    background-color: navy;
+}
+.marcas-img-12{
+    background-color: orange;
+}
+.marcas-img-13{
+    background-color: paleturquoise;
+}
+
+.marcas-img-14{
+    background-color: rosybrown;
+}
+.marcas-img-15{
+    background-color: slategray;
+}
 
 
 
@@ -257,53 +317,52 @@ h1 {
 
 
 /*------------------CONTACTO ------------------------*/
-.grid-container {
-    margin-top: 70px;
-    margin-left: 390px;
-    display: grid;
-    grid-template-columns: 550px 550px;
-    grid-template-rows: 120px 120px;
-    row-gap: 25px;
-    column-gap: 25px;
-}
-
-.grid-item {
+.contacto-item {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right:20%;
+    padding: 20px;
     background-color: rgb(0, 106, 162);
     border: 2px solid black;
     box-shadow: 10px 5px 5px black;
     transition: 0.5s;
-    text-align: center;
+    
 }
 
-.grid-item:hover {
-    margin-top: -5px;
-    margin-left: -5px;
-    margin-right: -5px;
-    transition: 1s;;
+.contacto-item:hover {
+    transition: 1s;
 }
 
-.grid-title {
+.contacto-item p a {
+    color: white ;
+    font-size: 1.5rem;
+}
+
+.contacto-item p a:hover {
+    color: black ;
+}
+
+.contacto-item span {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.subtitulo-contacto{
     font-size: 2.5rem;
 }
 
-.grid-p {
-    font-size: 1.5rem;
-    color: black;
-    font-weight: 300;
-    color: white;
+.dias {
+    font-size: 1.2rem;
 }
 
-.grid-enlace:hover {
-    color: white;
-}
 
-.grid-item-1 {
-    grid-column: 1/2;
-}
 
-.grid-item-2 {
-    grid-column: 2/3;
-}
+
+
+
+/*------------MARCAS----------------*/
+
+
 
 
 
