@@ -1,7 +1,7 @@
 /* Nav */
 .nav-color {
     background-color: rgb(0, 106, 162);
-    margin: -8px;
+    margin-top: -8px;
     padding: 10px;
 }
 
@@ -59,6 +59,10 @@
     margin-left: 122px ;
 }
 
+.bot-pos {
+    margin-left: 150px;
+}
+
 .boton-articulos:hover {
     color: black !important;
     transition: 0.5s !important;
@@ -84,15 +88,16 @@ h5 {
     color: white !important;
 }
 
-/*Footer*/
+
+/*------------------FOOTER-----------------------*/
 footer {
-    display: flex;
     background-color: rgb(0, 106, 162);
 }
 
 .footer-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .titulo-footer {
@@ -119,6 +124,14 @@ ul a:hover {
     transition: 0.4s;
 }
 
+p a {
+    color: black;
+}
+
+p a:hover {
+    color: white;
+}
+
 .logoRedSocial {
     width: 30px;
     height: 30px;
@@ -131,7 +144,7 @@ ul a:hover {
 
 /* Medios de Pago */
 .medios-de-pago {
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .medioDePago {
@@ -227,60 +240,64 @@ iframe {
 .marcas-container {
     display: grid;
     justify-content: space-around;
-    grid-template-columns: repeat(5, 150px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(auto-fit , 200px);
     column-gap: 10px;
     row-gap: 10px ;
     border: 1px solid red;
+    
 }
 
-.marcas-img-1{
+.marcas-img {
+    height:150px;
+}
+
+.img-1{
     background-color: aqua;
 }
 
-.marcas-img-2{
+.img-2{
     background-color: blue;
 }
-.marcas-img-3{
+.img-3{
     background-color: cadetblue;
 }
-.marcas-img-4{
+.img-4{
     background-color: darkmagenta;
 }
-.marcas-img-5{
+.img-5{
     background-color: gold;
 }
-.marcas-img-6{
+.img-6{
     background-color: hotpink;
 }
-.marcas-img-7{
+.img-7{
     background-color: indianred;
 }
-.marcas-img-8{
+.img-8{
     background-color: khaki;
 }
 
-.marcas-img-9{
+.img-9{
     background-color: lawngreen;
 }
-.marcas-img-10{
+.img-10{
     background-color: maroon;
 }
 
-.marcas-img-11{
+.img-11{
     background-color: navy;
 }
-.marcas-img-12{
+.img-12{
     background-color: orange;
 }
-.marcas-img-13{
+.img-13{
     background-color: paleturquoise;
 }
 
-.marcas-img-14{
+.img-14{
     background-color: rosybrown;
 }
-.marcas-img-15{
+.img-15{
     background-color: slategray;
 }
 
@@ -358,29 +375,16 @@ h1 {
 
 
 
+/*  Medias Query 
+@media only screen and (max-width: 425px) {
+    
+}
 
 
-/*------------MARCAS----------------*/
+@media only screen and (min-width: 426px) and (max-width: 768px) {
 
+}
 
-
-
-
-
-/* Medias Query */
-
-/* Extra small devices (phones, 600px and down) 
-@media only screen and (max-width: 600px) {...}
-
-Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (min-width: 600px) {...}
-
-Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {...}
-
-Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {...}
-
-Extra large devices (large laptops and desktops, 1200px and up) 
-@media only screen and (min-width: 1200px) {...} */
-
+@media only screen and (min-width: 1024){
+    
+} */
