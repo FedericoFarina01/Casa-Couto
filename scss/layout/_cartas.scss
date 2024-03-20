@@ -1,0 +1,58 @@
+/* Articulos*/
+$color-principal: rgb(0, 106, 162);
+$color-secundario: white;
+$color-terciario: #1A1A1A;
+
+h5 {
+    text-align: center;
+    color: $color-secundario !important;
+}
+
+
+.articulos-container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.estilo-carta {
+    background-color: $color-principal;
+}
+
+.tamaño-foto-art {
+    width: 200px;
+    height: 200px;
+} 
+
+
+.articulo-texto {
+    text-align: center;
+    color: $color-secundario !important;
+}
+
+.boton-articulos {
+    color: $color-secundario !important;
+    font-weight: 500 !important;
+    margin-left: 122px ;
+
+    :hover {
+        color: $color-terciario !important;
+        transition: 0.5s !important;
+    }
+}
+
+.estilo-boton {
+    background-color: transparent !important;
+    border: 2px solid $color-secundario !important;
+
+    :hover {
+        background-color: $color-secundario !important;
+        transition: 0.5s;
+    }
+}
+
+
+.bot-pos {
+    margin-left: 150px;
+}
+

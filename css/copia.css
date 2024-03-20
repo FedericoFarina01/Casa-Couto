@@ -23,7 +23,7 @@
     margin-left: 50%;
 }
 
-/* body */
+/* body - NO PASADO*/ 
 .titulo {
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -196,11 +196,6 @@ p a:hover {
     margin-right: 100%;
     margin-top: 400px;
 }
-
-
-
-/* Grid CONTACTO */
-
 
 /* IFRAME */
 iframe {

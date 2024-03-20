@@ -1,0 +1,12 @@
+/* H1 */
+$color-principal: rgb(0, 106, 162);
+
+@mixin estilosTituloPrincipal ($aling,$family,$color) {
+    text-align: $aling;
+    font-family: $family;
+    color: $color-principal;
+} 
+
+.titulo {
+    @include estilosTituloPrincipal(center, 'Times New Roman', $color-principal)
+}

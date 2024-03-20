@@ -1,0 +1,74 @@
+/*------------------FOOTER-----------------------*/
+$color-principal: rgb(0, 106, 162);
+$color-secundario: white;
+$color-terciario: #1A1A1A;
+
+
+footer {
+    background-color: $color-principal;
+
+    ul {
+        list-style-type: none;
+
+        a {
+            font-weight:500;
+            color: $color-terciario;
+            text-decoration: none;
+            transition: 0.4s;
+
+            :hover {
+                color: $color-secundario;
+                font-weight: 500;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    p {
+        a {
+            color: $color-terciario;
+
+            :hover {
+                color: $color-terciario;
+            }
+        }
+    }
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulo-footer {
+    color: white;
+    text-decoration:underline;
+    font-size: 1.3rem;
+    margin-left: 30px;
+}
+
+.flecha-arriba {
+    width: 40px;
+    height: 40px;
+}
+
+/* Medios de Pago */
+.medios-de-pago {
+    margin-left: 10px;
+}
+
+.medioDePago {
+    width: 50px;
+    height: 30px;
+}
+
+/* Contacto */
+.contacto-png {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-text {
+    margin-left: 30px;
+}

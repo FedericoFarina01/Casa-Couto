@@ -1,0 +1,32 @@
+/*-------------------FAQ------------------------------------*/
+$color-principal: rgb(0, 106, 162);
+$color-secundario: white;
+$color-terciario: #1A1A1A;
+
+h1 {
+    font-size: 50px !important;
+    margin-top: 50px !important;
+}
+
+.accordion-item{
+    margin-top: 30px;
+}
+
+.color-preguntas {
+    background-color: $color-principal !important;
+}
+
+.estilo-preguntas{
+    padding: 30px !important;
+    box-shadow: 10px 5px 5px $color-terciario;
+    transition: 1s;
+}
+
+.accordion-body {
+    box-shadow: 10px 5px 5px $color-terciario;
+}
+
+.preguntas {
+    margin-left: 15px;
+    margin-right: 15px;
+}

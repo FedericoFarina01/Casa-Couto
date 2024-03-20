@@ -1,0 +1,44 @@
+/*------------------CONTACTO ------------------------*/
+$color-principal: rgb(0, 106, 162);
+$color-secundario: white;
+$color-terciario: #1A1A1A;
+
+
+.contacto-item {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right:20%;
+    padding: 20px;
+    background-color: $color-principal;
+    border: 2px solid $color-terciario;
+    box-shadow: 10px 5px 5px $color-terciario;
+    transition: 0.5s;
+
+    :hover {
+        transition: 1s;
+    }
+    
+    p {
+        a{
+            color: $color-secundario ;
+            font-size: 1.5rem;
+
+            :hover {
+                color: $color-terciario ;
+            }
+        }
+    }
+
+    span {
+        color: $color-secundario;
+        font-size: 1.2rem;
+    }
+}
+
+.subtitulo-contacto{
+    font-size: 2.5rem;
+}
+
+.dias {
+    font-size: 1.2rem;
+}
