@@ -12,7 +12,7 @@ $color-terciario: #1A1A1A;
 .nav-item-color {
     color: $color-secundario !important;
 
-    :hover {
+    &:hover {
         color: $color-terciario !important;
         font-weight:450;
         transition: 0.5s;
