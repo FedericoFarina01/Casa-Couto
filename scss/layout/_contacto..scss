@@ -14,7 +14,7 @@ $color-terciario: #1A1A1A;
     box-shadow: 10px 5px 5px $color-terciario;
     transition: 0.5s;
 
-    :hover {
+    &:hover {
         transition: 1s;
     }
     
@@ -23,7 +23,7 @@ $color-terciario: #1A1A1A;
             color: $color-secundario ;
             font-size: 1.5rem;
 
-            :hover {
+            &:hover {
                 color: $color-terciario ;
             }
         }

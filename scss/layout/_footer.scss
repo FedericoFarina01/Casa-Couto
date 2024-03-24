@@ -16,7 +16,7 @@ footer {
             text-decoration: none;
             transition: 0.4s;
 
-            :hover {
+            &:hover {
                 color: $color-secundario;
                 font-weight: 500;
                 transition: 0.4s;
@@ -28,7 +28,7 @@ footer {
         a {
             color: $color-terciario;
 
-            :hover {
+            &:hover {
                 color: $color-terciario;
             }
         }
