@@ -23,17 +23,8 @@ footer {
             }
         }
     }
-
-    p {
-        a {
-            color: $color-terciario;
-
-            &:hover {
-                color: $color-terciario;
-            }
-        }
-    }
 }
+
 
 .footer-container {
     display: flex;
@@ -71,4 +62,18 @@ footer {
 
 .footer-text {
     margin-left: 30px;
+
+    a   {
+            font-weight:500;
+            color: $color-terciario;
+            text-decoration: none;
+            transition: 0.4s;
+
+            &:hover {
+                color: $color-secundario;
+                font-weight: 500;
+                transition: 0.4s;
+            }
+    }
+
 }

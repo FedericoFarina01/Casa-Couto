@@ -3,9 +3,9 @@ $color-principal: rgb(0, 106, 162);
 $color-secundario: white;
 $color-terciario: #1A1A1A;
 
-h5 {
+.card-title {
     text-align: center;
-    color: $color-secundario !important;
+    color: $color-secundario;
 }
 
 
@@ -13,6 +13,7 @@ h5 {
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .estilo-carta {
@@ -20,33 +21,39 @@ h5 {
 }
 
 .tamaño-foto-art {
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: auto;
+    object-fit: cover;
 } 
 
 
 .articulo-texto {
     text-align: center;
-    color: $color-secundario !important;
+    color: $color-secundario;
+
+    span {
+        color: #1A1A1A;
+        font-weight: bold;
+    }
 }
 
 .boton-articulos {
-    color: $color-secundario !important;
-    font-weight: 500 !important;
+    color: $color-secundario;
+    font-weight: 500;
     margin-left: 122px ;
 
     &:hover {
-        color: $color-terciario !important;
-        transition: 0.5s !important;
+        color: $color-terciario;
+        transition: 0.5s;
     }
 }
 
 .estilo-boton {
-    background-color: transparent !important;
-    border: 2px solid $color-secundario !important;
+    background-color: transparent;
+    border: 2px solid $color-secundario;
     
     &:hover {
-        background-color: $color-secundario !important;
+        background-color: $color-secundario;
         transition: 0.5s;
     }
 }
