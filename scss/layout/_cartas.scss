@@ -2,10 +2,11 @@
 $color-principal: rgb(0, 106, 162);
 $color-secundario: white;
 $color-terciario: #1A1A1A;
+$color-fondo: #F1F3F4;
 
 .card-title {
     text-align: center;
-    color: $color-secundario;
+    color: $color-principal;
 }
 
 
@@ -17,7 +18,7 @@ $color-terciario: #1A1A1A;
 }
 
 .estilo-carta {
-    background-color: $color-principal;
+    background-color: $color-fondo;
 }
 
 .tamaño-foto-art {
@@ -29,7 +30,7 @@ $color-terciario: #1A1A1A;
 
 .articulo-texto {
     text-align: center;
-    color: $color-secundario;
+    color: $color-principal;
 
     span {
         color: #1A1A1A;
@@ -38,22 +39,23 @@ $color-terciario: #1A1A1A;
 }
 
 .boton-articulos {
-    color: $color-secundario;
+    color: $color-principal;
     font-weight: 500;
     margin-left: 122px ;
 
     &:hover {
-        color: $color-terciario;
+        color: $color-fondo;
         transition: 0.5s;
     }
 }
 
 .estilo-boton {
     background-color: transparent;
-    border: 2px solid $color-secundario;
+    border: 2px solid $color-principal;
     
     &:hover {
-        background-color: $color-secundario;
+        background-color: $color-principal;
+        border: 2px solid $color-terciario;
         transition: 0.5s;
     }
 }

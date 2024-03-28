@@ -39,7 +39,7 @@
 /* Cartas*/
 .card-title {
   text-align: center;
-  color: white;
+  color: rgb(0, 106, 162);
 }
 
 .articulos-container {
@@ -50,7 +50,7 @@
 }
 
 .estilo-carta {
-  background-color: rgb(0, 106, 162);
+  background-color: #F1F3F4;
 }
 
 .tamaño-foto-art {
@@ -61,7 +61,7 @@
 
 .articulo-texto {
   text-align: center;
-  color: white;
+  color: rgb(0, 106, 162);
 }
 .articulo-texto span {
   color: #1A1A1A;
@@ -69,21 +69,22 @@
 }
 
 .boton-articulos {
-  color: white;
+  color: rgb(0, 106, 162);
   font-weight: 500;
   margin-left: 122px;
 }
 .boton-articulos:hover {
-  color: #1A1A1A;
+  color: #F1F3F4;
   transition: 0.5s;
 }
 
 .estilo-boton {
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid rgb(0, 106, 162);
 }
 .estilo-boton:hover {
-  background-color: white;
+  background-color: rgb(0, 106, 162);
+  border: 2px solid #1A1A1A;
   transition: 0.5s;
 }
 
@@ -103,7 +104,7 @@
   margin-left: 15px;
   margin-right: 15px;
   padding: 20px;
-  background-color: rgb(0, 106, 162);
+  background-color: #F1F3F4;
   border: 2px solid #1A1A1A;
   box-shadow: 10px 5px 5px #1A1A1A;
   transition: 0.5s;
@@ -113,6 +114,15 @@
   margin-left: 0px;
   margin-right: 0px;
   transition: 1s;
+}
+
+.subtitulo {
+  color: rgb(0, 106, 162);
+  font-weight: 400;
+}
+
+.parrafo {
+  color: rgb(0, 106, 162);
 }
 
 /*-----------------MARCAS-------------------*/
@@ -131,11 +141,19 @@ h1 {
 }
 
 .accordion-item {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
-.color-preguntas {
-  background-color: rgb(0, 106, 162) !important;
+.color-fondo-preguntas {
+  background-color: #F1F3F4 !important;
+}
+
+.color-pregunta {
+  color: rgb(0, 106, 162);
+}
+
+.color-respuesta {
+  color: #1A1A1A;
 }
 
 .estilo-preguntas {
@@ -154,29 +172,24 @@ h1 {
 }
 
 /*------------------CONTACTO ------------------------*/
-.contacto-item {
-  margin-top: 20px;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding: 20px;
-  background-color: rgb(0, 106, 162);
-  border: 2px solid #1A1A1A;
-  box-shadow: 10px 5px 5px #1A1A1A;
-  transition: 0.5s;
-}
-.contacto-item:hover {
-  transition: 1s;
-}
 .contacto-item p a {
-  color: white;
+  color: rgb(0, 106, 162);
   font-size: 1.5rem;
+  margin-left: 230px;
+  display: block;
+  margin-top: -50px;
+  padding: 10px 0px 10px 0px;
 }
 .contacto-item p a:hover {
   color: #1A1A1A;
 }
 .contacto-item span {
-  color: white;
+  color: rgb(0, 106, 162);
   font-size: 1.2rem;
+  margin-left: 380px;
+  display: block;
+  margin-top: -50px;
+  padding: 10px 0px 10px 0px;
 }
 
 .subtitulo-contacto {
@@ -185,6 +198,27 @@ h1 {
 
 .dias {
   font-size: 1.2rem;
+  color: rgb(0, 106, 162);
+  margin-left: 230px;
+  display: block;
+  margin-top: -50px;
+  padding: 10px 0px 10px 0px;
+}
+
+.contacto-container {
+  background-color: #F1F3F4;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+
+.icons {
+  margin-left: 150px;
+}
+
+.sabado {
+  margin-left: 294px;
 }
 
 /*------------------FOOTER-----------------------*/

@@ -2,6 +2,7 @@
 $color-principal: rgb(0, 106, 162);
 $color-secundario: white;
 $color-terciario: #1A1A1A;
+$color-fondo: #F1F3F4;
 
 .subtitulo {
     font-weight: bold;
@@ -15,7 +16,7 @@ $color-terciario: #1A1A1A;
     margin-left: 15px;
     margin-right: 15px;
     padding: 20px;
-    background-color: $color-principal;
+    background-color: $color-fondo;
     border: 2px solid $color-terciario;
     box-shadow: 10px 5px 5px $color-terciario;
     transition: 0.5s;
@@ -28,3 +29,11 @@ $color-terciario: #1A1A1A;
     }
 }
 
+.subtitulo {
+    color: $color-principal;
+    font-weight:400;
+}
+
+.parrafo {
+    color: $color-principal;
+}

@@ -2,26 +2,18 @@
 $color-principal: rgb(0, 106, 162);
 $color-secundario: white;
 $color-terciario: #1A1A1A;
-
+$color-fondo: #F1F3F4;
 
 .contacto-item {
-    margin-top: 20px;
-    margin-left: 20%;
-    margin-right:20%;
-    padding: 20px;
-    background-color: $color-principal;
-    border: 2px solid $color-terciario;
-    box-shadow: 10px 5px 5px $color-terciario;
-    transition: 0.5s;
-
-    &:hover {
-        transition: 1s;
-    }
     
     p {
         a{
-            color: $color-secundario ;
+            color: $color-principal ;
             font-size: 1.5rem;
+            margin-left: 230px;
+            display: block;
+            margin-top: -50px;
+            padding: 10px 0px 10px 0px;
 
             &:hover {
                 color: $color-terciario ;
@@ -30,8 +22,12 @@ $color-terciario: #1A1A1A;
     }
 
     span {
-        color: $color-secundario;
+        color: $color-principal;
         font-size: 1.2rem;
+        margin-left: 380px;
+        display: block;
+        margin-top: -50px;
+        padding: 10px 0px 10px 0px;
     }
 }
 
@@ -41,4 +37,25 @@ $color-terciario: #1A1A1A;
 
 .dias {
     font-size: 1.2rem;
+    color: $color-principal;
+    margin-left: 230px;
+    display: block;
+    margin-top: -50px;
+    padding: 10px 0px 10px 0px;
+} 
+
+.contacto-container {
+    background-color: $color-fondo;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+.icons {
+    margin-left: 150px;
+}
+
+.sabado {
+    margin-left: 294px;
 }

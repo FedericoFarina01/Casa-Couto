@@ -2,6 +2,7 @@
 $color-principal: rgb(0, 106, 162);
 $color-secundario: white;
 $color-terciario: #1A1A1A;
+$color-fondo: #F1F3F4;
 
 h1 {
     font-size: 50px;
@@ -9,11 +10,19 @@ h1 {
 }
 
 .accordion-item{
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
-.color-preguntas {
-    background-color: $color-principal !important;
+.color-fondo-preguntas {
+    background-color: $color-fondo !important;
+}
+
+.color-pregunta {
+    color: $color-principal;
+}
+
+.color-respuesta {
+    color: $color-terciario;
 }
 
 .estilo-preguntas{
