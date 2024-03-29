@@ -253,14 +253,12 @@ footer ul a:hover {
   margin-left: 30px;
 }
 
-.flecha-arriba {
-  width: 40px;
-  height: 40px;
-}
-
 /* Medios de Pago */
-.medios-de-pago {
-  margin-left: 10px;
+.medios-de-pago .tarjetas {
+  margin-top: 25px;
+}
+.medios-de-pago .mp, .medios-de-pago .cabal, .medios-de-pago .naranja, .medios-de-pago .nativa {
+  margin-top: 3px;
 }
 
 .medioDePago {
@@ -289,6 +287,66 @@ footer ul a:hover {
   transition: 0.4s;
 }
 
+@media only screen and (max-width: 504px) {
+  /*------------------CONTACTO ------------------------*/
+  .contacto-item p a {
+    margin-left: 130px;
+  }
+  .contacto-item span {
+    margin-left: 280px;
+  }
+  .dias {
+    margin-left: 130px;
+  }
+  .icons {
+    margin-left: 50px;
+  }
+  .sabado {
+    margin-left: 194px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /*------------------CONTACTO ------------------------*/
+  .contacto-item p a {
+    margin-left: 100px;
+  }
+  .contacto-item span {
+    margin-left: 250px;
+  }
+  .dias {
+    margin-left: 100px;
+  }
+  .icons {
+    margin-left: 20px;
+  }
+  .sabado {
+    margin-left: 164px;
+  }
+}
+@media only screen and (max-width: 388px) {
+  .contacto-item p a {
+    margin-left: 80px;
+  }
+  .contacto-item span {
+    margin-left: 230px;
+  }
+  .dias {
+    margin-left: 80px;
+  }
+  .icons {
+    margin-left: 0px;
+  }
+  .sabado {
+    margin-left: 144px;
+  }
+}
+/*------------------FOOTER ------------------------*/
+@media only screen and (max-width: 333px) {
+  .contacto-query {
+    margin-top: 20px;
+    margin-left: 115px;
+  }
+}
 /*Copyright*/
 .copyright {
   position: absolute;

@@ -1,0 +1,108 @@
+$color-principal: rgb(0, 106, 162);
+$color-secundario: white;
+$color-terciario: #1A1A1A;
+$color-fondo: #F1F3F4;
+
+@media only screen and (max-width: 504px) {
+   /*------------------CONTACTO ------------------------*/
+
+.contacto-item {
+    
+    p {
+        a{
+            margin-left: 130px;
+        }
+    }
+
+    span {
+        margin-left: 280px;
+    }
+}
+
+.dias {
+    margin-left: 130px;
+}
+
+
+.icons {
+    margin-left: 50px;
+}
+
+.sabado {
+    margin-left: 194px;
+}
+
+}
+
+
+@media only screen and (max-width: 420px) {
+/*------------------CONTACTO ------------------------*/
+
+.contacto-item {
+    
+    p {
+        a{
+            margin-left: 100px;
+        }
+    }
+
+    span {
+        margin-left: 250px;
+    }
+}
+
+.dias {
+    margin-left: 100px;
+} 
+
+
+.icons {
+    margin-left: 20px;
+}
+
+.sabado {
+    margin-left: 164px;
+}
+}
+
+@media only screen and (max-width: 388px) {
+    .contacto-item {
+    
+        p {
+            a{
+                margin-left: 80px;
+            }
+        }
+    
+        span {
+            margin-left: 230px;
+        }
+    }
+    
+    .dias {
+        margin-left: 80px;
+    } 
+    
+    
+    .icons {
+        margin-left: 0px;
+    }
+    
+    .sabado {
+        margin-left: 144px;
+    }
+}
+
+
+/*------------------FOOTER ------------------------*/
+
+@media only screen and (max-width: 333px){
+
+
+
+
+.contacto-query {
+    margin-top: 20px;
+    margin-left: 115px ;
+}
+}

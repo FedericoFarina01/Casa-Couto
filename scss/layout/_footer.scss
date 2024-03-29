@@ -39,15 +39,19 @@ footer {
     margin-left: 30px;
 }
 
-.flecha-arriba {
-    width: 40px;
-    height: 40px;
-}
-
 /* Medios de Pago */
 .medios-de-pago {
-    margin-left: 10px;
+    
+    .tarjetas {
+        margin-top: 25px;
+    }
+
+    .mp, .cabal, .naranja, .nativa {
+        margin-top: 3px;
+    }
 }
+
+
 
 .medioDePago {
     width: 50px;
