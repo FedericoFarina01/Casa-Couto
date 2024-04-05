@@ -37,6 +37,11 @@
 }
 
 /* Cartas*/
+.tamaño-foto-art {
+  width: 200px;
+  height: 200gipx;
+}
+
 .card-title {
   text-align: center;
   color: rgb(0, 106, 162);
@@ -381,6 +386,13 @@ iframe {
   text-decoration: none;
   background: #FCFCFD;
   transition: 0.3s;
+}
+
+.carousel {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
